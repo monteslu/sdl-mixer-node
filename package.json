@@ -1,6 +1,6 @@
 {
   "name": "sdl2-mixer-node",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "SDL2_mixer bindings for Node.js",
   "main": "index.js",
   "license": "MIT",
@@ -48,7 +48,8 @@
     "build:debug": "napi build --platform",
     "prepublishOnly": "napi prepublish -t npm",
     "test": "ava",
-    "version": "napi version"
+    "version": "napi version",
+    "lint": "oxlint"
   },
   "devDependencies": {
     "@napi-rs/cli": "^2.18.4",
